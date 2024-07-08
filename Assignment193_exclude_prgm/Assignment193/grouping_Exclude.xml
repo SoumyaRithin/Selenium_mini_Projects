@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <run>
+			  <exclude name="system"></exclude>
+		  </run>
+	  </groups>
+    <classes>
+      <class name="NGTest.Assignment193_Exclude_grouping_testNG"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
